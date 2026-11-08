@@ -1,0 +1,32 @@
+
+
+
+Its a simple program which will tell the strength of the password using LED
+
+
+Condition we are going to go upon is 
+
+length of 8 or more : +2
+contains uppercase more than one
+contains lowercase more than one 
+contains numbers more than one 
+contains special character more than 2 
+
+we can create  a score base system where 0-2 = weak , 3-4 = medium , 5-7 = strong 
+
+
+
+
+Lets talk about implementation 
+
+we are going to go step by step 
+
+1)start the program 
+2) intialixze the 8051 micro controller 
+3) initialize the password caharecter arry 
+4) strength score = 0 [set to initialize]
+5) get input from user and calculate the password 
+6) check the password length with the condition stated above 
+7)control LED accordinly
+8) end of program
+
